@@ -11,20 +11,20 @@
 
 대표적인 예로 java.lang.Math나 java.lang.Arrays가 클래스가 있다.
 
-![Untitled](https://user-images.githubusercontent.com/49682056/216483322-e3678838-3c1a-4da0-bc4e-65ae17d3c057.png)
+![Untitled](https://user-images.githubusercontent.com/49682056/216827728-3f2a9cde-4c04-4e15-bd7a-b308009cf121.png)
 
-![Untitled 1](https://user-images.githubusercontent.com/49682056/216483304-cd07605f-e443-4315-99ca-24c2f7f73653.png)
+![Untitled 1](https://user-images.githubusercontent.com/49682056/216827719-792a6dfb-ba6c-40a9-bc4f-df4c2dcce562.png)
 
 또한 java.util.Collections처럼 특정 인터페이스를 구현하는 객체를 생성해주는 정적 메서드(혹은 팩터리)를 모아놓은 클래스도 있다. 
 
 
-![Untitled 2](https://user-images.githubusercontent.com/49682056/216483309-64d49188-3485-41d7-b83a-3759ee77790e.png)
+![Untitled 2](https://user-images.githubusercontent.com/49682056/216827721-d480aef4-7093-4a79-b0a7-4047310266da.png)
 
 위 클래스는 생성자를 호출하려고 하면 아래와 같이 에러가 떨어지는 것을 확인 할 수 있다.
 
 위 클래스의 경우 기본 타입의 값이나 배열 관련 메서드를 모아놓은 유틸리티성 클래스이기에 애초에 인스턴스로 만들어 사용하려고 설계된 게 아니기 때문이다.
 
-![Untitled](item%204%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%86%AB%E1%84%89%E1%85%B3%E1%84%92%E1%85%AA%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A7%E1%84%80%E1%85%A5%E1%84%83%E1%85%B3%E1%86%AB%20private%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2015f156d3508b49fbbd3c13b5527cdd1c/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/49682056/216827722-8a64a385-f54d-402b-84e6-c5b6124092af.png)
 
 또한 위와 같이 final 클래스와 관련한 메서드나 필드만을 모아 정의해놓은 클래스 또한 마찬가지이다.
 
@@ -59,19 +59,19 @@ public class UtiltityClass {
 
 위에 설명한 클래스 또한 private 생성자로 인스턴스화를 막아놓은 것을 볼 수 있다.
 
-![Untitled 4](https://user-images.githubusercontent.com/49682056/216484009-4228845a-697d-48ce-89fb-21eccd1f6f6b.png)
+![Untitled 4](https://user-images.githubusercontent.com/49682056/216827723-cd33f263-a61e-4b6f-a06d-fa577462b383.png)
 
-![Untitled 5](https://user-images.githubusercontent.com/49682056/216484011-a8ad4733-8aee-45df-9eb0-37a8d251e613.png)
+![Untitled 5](https://user-images.githubusercontent.com/49682056/216827724-c36adc7c-72c1-475d-9306-ffb09fd49bb4.png)
 
-![Untitled 6](https://user-images.githubusercontent.com/49682056/216484013-0a20248d-2c4e-4b25-b495-7513cf8645ae.png)
+![Untitled 6](https://user-images.githubusercontent.com/49682056/216827725-47f78b37-b550-420b-b0c7-cc4415504679.png)
 ### 실무에서는?
 
-![Untitled](item%204%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%86%AB%E1%84%89%E1%85%B3%E1%84%92%E1%85%AA%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A7%E1%84%80%E1%85%A5%E1%84%83%E1%85%B3%E1%86%AB%20private%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%2015f156d3508b49fbbd3c13b5527cdd1c/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/49682056/216827722-8a64a385-f54d-402b-84e6-c5b6124092af.png)
 
 위에서 봤던 RegexPattern의 경우 private 생성자가 없음에도 인스턴스화를 할 수 없다.
 
 이는 @UtilityClass 어노테이션 자체에 기본 생성자가 private으로 생성되게 만들어 놓았으며 리플랙션이나 내부에서 생성자를 호출한 경우 UnsupportedOperationException을 발생시키도록 되있기 때문이다.
 
-![Untitled 7](https://user-images.githubusercontent.com/49682056/216484014-3a6d1fb0-76d9-401d-b15b-ad8f2a94913f.png)
+![Untitled 7](https://user-images.githubusercontent.com/49682056/216827726-ce937ecb-aa85-4017-b8c4-318b76b15244.png)
 
 그리고 다른 방법으로는 Lombok에서 제공해주는 생성자 어노테이션에서 access를 통해 생성자의 접근 범위를 private으로 간단하게 private 생성자를 만들 수 있다.
