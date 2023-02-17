@@ -111,9 +111,9 @@ public class PhoneNumber implements Comparable<PhoneNumber> {
 
 **객체 참조 타입의 경우**
 
-![Untitled](item%2014%20Comparable%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%A9%E1%84%85%E1%85%A7%E1%84%92%E1%85%A1%E1%84%85%E1%85%A1%2074197ccfb251467aa921f7383d0e3311/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/49682056/219659005-1741479d-e1e0-43e2-b170-676a9f950803.png)
 
-![Untitled](item%2014%20Comparable%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%A9%E1%84%85%E1%85%A7%E1%84%92%E1%85%A1%E1%84%85%E1%85%A1%2074197ccfb251467aa921f7383d0e3311/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/49682056/219658988-b3b6c2ab-c2b2-4eb8-89d8-a31d8144f401.png)
 
 객체 참조용 비교자 생성 메서드도 있다. comparing이라는 정적 메서드 2개가 다중정의되어 있다.
 
@@ -146,9 +146,9 @@ public class PhoneNumber implements Comparable<PhoneNumber> {
 }
 ```
 
-![Untitled](item%2014%20Comparable%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%A9%E1%84%85%E1%85%A7%E1%84%92%E1%85%A1%E1%84%85%E1%85%A1%2074197ccfb251467aa921f7383d0e3311/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/49682056/219658997-25f23bc5-77ed-47cb-bcbb-7e3d3b6b6da3.png)
 
-![Untitled](item%2014%20Comparable%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%AE%E1%84%92%E1%85%A7%E1%86%AB%E1%84%92%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%A9%E1%84%85%E1%85%A7%E1%84%92%E1%85%A1%E1%84%85%E1%85%A1%2074197ccfb251467aa921f7383d0e3311/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/49682056/219659000-04ee82cc-2b09-4055-82db-ded5638cc281.png)
 
 1. **값의 차를 기준으로 첫번 째 값이 크면 양수를 반환하는 compareTo나 compare 방식은 피하자**
 
