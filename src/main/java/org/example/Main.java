@@ -1,11 +1,16 @@
 package org.example;
 
-import java.sql.DriverManager;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println(Utensil.NAME + Dessert.NAME);
+    }
+
+    private static class Utensil {
+        static final String NAME = "pot";
+    }
+
+    private static class Dessert {
+        static final String NAME = "tie";
     }
 }
