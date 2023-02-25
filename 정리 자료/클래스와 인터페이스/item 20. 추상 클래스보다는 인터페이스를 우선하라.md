@@ -64,7 +64,7 @@ public interface SongWriter {
 ```java
 public interface SingerSongwriter extends Singer, SongWriter{
     // 악기를 연주한다
-		AudioClip strum();
+    AudioClip strum();
 
     void actSensitive();
 }
