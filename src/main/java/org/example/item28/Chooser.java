@@ -1,20 +1,21 @@
 package org.example.item28;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Chooser<T> {
-    private final T[] choiceArray;
+    private final List<T> choiceList;
 
 
-    public Chooser(Collection<T> choiceArray) {
-        this.choiceArray = (T[]) choiceArray.toArray();
+    public Chooser(Collection<T> choices) {
+        this.choiceList = new ArrayList<>(choices);
     }
 
-    //반환된 Object 타입을 형변환 하여 사용해야 한다.
     public Object choose() {
         Random rnd = ThreadLocalRandom.current();
-        return choiceArray[rnd.nextInt(choiceArray.length)];
+        return choiceList.get(rnd.nextInt(choiceList.size()));
     }
 }
