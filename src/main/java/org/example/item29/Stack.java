@@ -2,15 +2,16 @@ package org.example.item29;
 
 import java.util.Arrays;
 import java.util.EmptyStackException;
+import java.util.concurrent.DelayQueue;
 
 public class Stack<E> {
-    private E[] elements;
+    private Object[] elements;
     private int size = 0;
     private static final int DEFAULT_INITIAL_CAPACITY = 16;
 
-    @SuppressWarnings("unchecked")
+
     public Stack() {
-        elements = (E[]) new Object[DEFAULT_INITIAL_CAPACITY];
+        elements = new Object[DEFAULT_INITIAL_CAPACITY];
     }
 
     public void push(E e) {
@@ -22,7 +23,7 @@ public class Stack<E> {
         if (size == 0) {
             throw new EmptyStackException();
         }
-        E result = elements[--size];
+        @SuppressWarnings("unchecked") E result = (E) elements[--size];
         elements[size] = null;
         return result;
     }
