@@ -1,4 +1,4 @@
-package org.example.itme23;
+package org.example.item23;
 
 abstract class Figure {
     abstract double area();
