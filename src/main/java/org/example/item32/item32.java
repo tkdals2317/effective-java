@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class item32 {
-    @SuppressWarnings("unchecked")
+
     public static void main(String[] args) {
         varargs("이렇게 ", "여러개의 ", "매개변수를 ", "넘길 수 있습니다");
         List<String> strings1 = List.of("aaa", "bbb", "ccc");
