@@ -3,15 +3,14 @@ package org.example.item31;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.EmptyStackException;
-import java.util.Iterator;
 
-public class StackV1<E> {
+public class StackV2<E> {
     private Object[] elements;
     private int size = 0;
     private static final int DEFAULT_INITIAL_CAPACITY = 16;
 
 
-    public StackV1() {
+    public StackV2() {
         elements = new Object[DEFAULT_INITIAL_CAPACITY];
     }
 
@@ -39,14 +38,15 @@ public class StackV1<E> {
         }
     }
 
-    public void pushAll(Iterable<E> src) {
+    public void pushAll(Iterable<? extends E> src) {
         for (E e : src) {
             push(e);
         }
     }
 
-    public void popAll(Collection<E> dst){
+    public void popAll(Collection<? super E> dst){
         while (!isEmpty())
             dst.add(pop());
     }
+
 }
