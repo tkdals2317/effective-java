@@ -73,15 +73,16 @@ private final Collection<Stamp> stamps = new ArrayList<>() {};
 이렇게 stamps에는 Stamp 인스턴스만 넣어야 함을 선언해주자
 
 ![Untitled 1](https://user-images.githubusercontent.com/49682056/222758923-7ba42642-7f3b-447b-8652-b9d09a6e0b14.png)
+
 컴파일 단계에서 타입을 체크하여 다른 타입의 인스턴스를 넣으려면 컴파일 오류가 난다. 
 
 로타입을 쓰는 걸 언어적으로 막아 놓지는 않았지만 **로타입을 쓰면 제네릭이 안겨주는 안정성과 표현력을 모두 잃게 된다.**
 
 그러므로 로타입은 사용하지 않는 것이 좋다. 
 
-### List<Object>처럼 임의의 객체를 허용하는 매개변수화 타입은 괜찮다
+### `List<Object>`처럼 임의의 객체를 허용하는 매개변수화 타입은 괜찮다
 
-**로 타입 List와 List<Object>의 차이점**
+**로 타입 `List`와 `List<Object>`의 차이점**
 
 List : 제네릭 타입에서 완전히 발을 뺀 것
 
