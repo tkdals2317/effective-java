@@ -42,6 +42,8 @@ EFFECTIVE JAVA 3/E(조슈아 블로크) 책을 스터디하며 정리한 내용�
 
 - [4장 제네릭](https://github.com/tkdals2317/effective-java/tree/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/4%EC%9E%A5%20%EC%A0%9C%EB%84%A4%EB%A6%AD)
   - [item 26. 로 타입은 사용하지 말라](https://github.com/tkdals2317/effective-java/blob/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/4%EC%9E%A5%20%EC%A0%9C%EB%84%A4%EB%A6%AD/item%2026.%20%EB%A1%9C%20%ED%83%80%EC%9E%85%EC%9D%80%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%A7%80%20%EB%A7%90%EB%9D%BC.md)
+  - [item 27. 비검사 경고를 제거하라](https://github.com/tkdals2317/effective-java/blob/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/4%EC%9E%A5%20%EC%A0%9C%EB%84%A4%EB%A6%AD/item%2027.%20%EB%B9%84%EA%B2%80%EC%82%AC%20%EA%B2%BD%EA%B3%A0%EB%A5%BC%20%EC%A0%9C%EA%B1%B0%ED%95%98%EB%9D%BC.md)
+  - [item 28. 배열보다는 리스트를 사용하라](https://github.com/tkdals2317/effective-java/blob/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/4%EC%9E%A5%20%EC%A0%9C%EB%84%A4%EB%A6%AD/item%2028.%20%EB%B0%B0%EC%97%B4%EB%B3%B4%EB%8B%A4%EB%8A%94%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
 
 #### 정리 내용은 노션에서도 확인할 수 있습니다.
 
