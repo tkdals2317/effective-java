@@ -1,3 +1,5 @@
+# item 29. 이왕이면 제네릭 타입으로 만들라
+
 <aside>
 💡 스택 코드를 제네릭으로 변경해보자
 
@@ -83,7 +85,7 @@ public class Stack<E> {
 
 이렇게 바꾸면 오류가 하나 발생한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5fe29745-1cfe-474a-9c15-7807c3a95d18/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/49682056/224526791-2d8716aa-1233-421d-adf2-a02958842bfd.png)
 
 E와 같은 실체화 불가 타입으로 배열을 만들 수 없어 생기는 오류이다.
 
@@ -163,7 +165,7 @@ public class Stack<E> {
 
 ### 한정적 타입 매개변수를 사용한 제네릭
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f57afdfd-2a6c-4236-ad85-78434766d09d/Untitled.png)
+![Untitled 1](https://user-images.githubusercontent.com/49682056/224526788-0b601a82-25c3-4a3b-b1c6-baf5db8bb2e1.png)
 
 Delayed의 하위 타입만 받는다.
 
