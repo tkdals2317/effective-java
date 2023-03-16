@@ -1,4 +1,4 @@
-# effective-java
+#  Effective Java
 
 ![image](https://user-images.githubusercontent.com/49682056/216249756-01a72430-5a43-4956-8b1e-9692a2782c59.png)
 
@@ -9,7 +9,7 @@ EFFECTIVE JAVA 3/E(조슈아 블로크) 책을 스터디하며 정리한 내용�
 - 정리자료 폴더에 스터디 학습 내용 업로드
 - 책에서 나온 소스 코드 및 테스트 코드 업로드 
 
-#### 목차
+#### Effective Java Items
 - [1장 객체 생성과 파괴](https://github.com/tkdals2317/effective-java/tree/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/1%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EC%83%9D%EC%84%B1%EA%B3%BC%20%ED%8C%8C%EA%B4%B4)  
   - [item 1. 생성자 대신 정적 팩터리 메서드를 고려하라](https://github.com/tkdals2317/effective-java/blob/ee217e4cbc7dc9981b95f4f90b6e04955902a786/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EC%83%9D%EC%84%B1%EA%B3%BC%20%ED%8C%8C%EA%B4%B4/item%201.%20%EC%83%9D%EC%84%B1%EC%9E%90%20%EB%8C%80%EC%8B%A0%20%EC%A0%95%EC%A0%81%20%ED%8C%A9%ED%84%B0%EB%A6%AC%20%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC%20%EA%B3%A0%EB%A0%A4%ED%95%98%EB%9D%BC.md)
   - [item 2. 생성자에 매개변수가 많다면 빌더를 고려하라](https://github.com/tkdals2317/effective-java/blob/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/1%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EC%83%9D%EC%84%B1%EA%B3%BC%20%ED%8C%8C%EA%B4%B4/item%202.%20%EC%83%9D%EC%84%B1%EC%9E%90%EC%97%90%20%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98%EA%B0%80%20%EB%A7%8E%EB%8B%A4%EB%A9%B4%20%EB%B9%8C%EB%8D%94%EB%A5%BC%20%EA%B3%A0%EB%A0%A4%ED%95%98%EB%9D%BC.md)  
