@@ -109,15 +109,15 @@ public interface Comparable<T> {
 }
 ```
 
-여기서 **타입 매개변수** **T**는 **Comparable<T>를 구현한 타입이 비교할 수 있는 원소의 타입**을 정의한다.
+여기서 **타입 매개변수** **T**는 **`Comparable<T>`를 구현한 타입이 비교할 수 있는 원소의 타입**을 정의한다.
 
 거의 모든 타입은 자신과 같은 타입의 원소만 비교할 수 있다.
 
-String ⇒ Comparable<String>
+`String` ⇒ `Comparable<String>`
 
-Integer ⇒ Comparable<Integer>
+`Integer` ⇒ `Comparable<Integer>`
 
-Comparable을 구현한 원소의 컬렉션을 입력 받는 메서드들은 주로 그 원소를 정렬 혹은 검색하거나, 최솟값, 최대값을 구하는 식으로 사용된다.
+`Comparable`을 구현한 원소의 컬렉션을 입력 받는 메서드들은 주로 그 원소를 정렬 혹은 검색하거나, 최솟값, 최대값을 구하는 식으로 사용된다.
 
 이 기능을 수행하려면 컬렉션에 담긴 모든 원소가 상호 비교될 수 있어야한다.
 

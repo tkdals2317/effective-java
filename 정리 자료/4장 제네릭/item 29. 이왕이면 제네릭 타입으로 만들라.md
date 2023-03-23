@@ -167,11 +167,11 @@ public class Stack<E> {
 
 ![Untitled 1](https://user-images.githubusercontent.com/49682056/224526788-0b601a82-25c3-4a3b-b1c6-baf5db8bb2e1.png)
 
-Delayed의 하위 타입만 받는다.
+`Delayed`의 하위 타입만 받는다.
 
-클라이언트는 DelayQueue에서 형변환 없이 곧바로 Delayed의 메서드를 호출 할 수 있다.
+클라이언트는 `DelayQueue`에서 형변환 없이 곧바로 `Delayed`의 메서드를 호출 할 수 있다.
 
-모든 타입은 자기 자신의 하위 타입이므로 DelayQueue<Delayed>로도 사용할 수 있다.
+모든 타입은 자기 자신의 하위 타입이므로 `DelayQueue<Delayed>`로도 사용할 수 있다.
 
 ### 정리
 

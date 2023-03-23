@@ -7,11 +7,11 @@
 
 ### 단일원소 컨테이너
 
-Set<E>, Map<K, V> 등의 컬렉션과 같이 매개변수화 되는 대상은 원소가 아닌 컨테이너 자신이다.
+`Set<E>`, `Map<K, V>` 등의 컬렉션과 같이 매개변수화 되는 대상은 원소가 아닌 컨테이너 자신이다.
 
 따라서 하나의 컨테이너에서 매개변수화할 수 있는 타입의 수가 제한된다.
 
-쉽게 말해 Set<Integer>에는 Integer 하나의 타입 매개변수만 넣을 수 있고, Map<String, Integer>으로는 Key값에는 String 타입매개변수만 value 값으로는 Integer 타입 매개변수만 받을 수 있다.
+쉽게 말해 `Set<Integer>`에는 Integer 하나의 타입 매개변수만 넣을 수 있고, `Map<String, Integer>`으로는 Key값에는 String 타입매개변수만 value 값으로는 Integer 타입 매개변수만 받을 수 있다.
 
 이를 단일 원소 컨테이너라고 한다.
 
@@ -78,7 +78,7 @@ public static void main(String[] args) {
 
 1. **Favorites가 사용하는 private 멤버 변수인 favorites의 타입은 `Map<Class<?>, Object>`이다.**
     
-    ⇒ 키값을 와일드 카드 타입으로 Class<?>로 사용함으로서 다양한 타입을 지원하는 힘이 여기서 나온다.
+    ⇒ 키값을 와일드 카드 타입으로 `Class<?>`로 사용함으로서 다양한 타입을 지원하는 힘이 여기서 나온다.
     
 2. **두번 째 favorites 맵의 값 타입은 단순히 Objects다.**
     
@@ -174,11 +174,11 @@ Exception in thread "main" java.lang.ClassCastException: Attempt to insert class
 
 1. **실체화 불가 타입에는 사용할 수 없다**
 
-즉, String이나 String[]은 저장 할 수 있어도 List<String>은 저장할 수 없다.
+즉, `String`이나 `String[]`은 저장 할 수 있어도 `List<String>`은 저장할 수 없다.
 
-List<String>의 Class 객체를 얻을 수 없기 때문이다.
+`List<String>`의 Class 객체를 얻을 수 없기 때문이다.
 
-만약 List<String>.class와 List<Integer>를 허용하면, 둘다 List.class라는 같은 Class 객체를 공유하므로 문제가 생긴다.
+만약 `List<String>.class`와 `List<Integer>`를 허용하면, 둘다 `List.class`라는 같은 Class 객체를 공유하므로 문제가 생긴다.
 
 하지만 수퍼 타입 토큰으로 해결 하려는 시도도 있다.
 
