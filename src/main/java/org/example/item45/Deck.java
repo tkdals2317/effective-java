@@ -29,8 +29,6 @@ public class Deck {
                 .collect(Collectors.toList());
     }
 
-    
-
     private static class Card {
         Suit suit;
         Rank rank;
