@@ -28,6 +28,7 @@ public enum Operation {
     }
 
     // 34-7 열거 타입용 fromString 메서드 구현하기
+    // 코드 46-4 toMap 수집기를 이용하여 열거 타입 상수에 매핑한다.
     public static final Map<String, Operation> stringToEnum =
             Stream.of(Operation.values()).collect(
                     Collectors.toMap(Object::toString, e -> e));
