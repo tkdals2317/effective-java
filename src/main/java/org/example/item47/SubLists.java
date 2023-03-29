@@ -11,18 +11,12 @@ public class SubLists {
         return Stream.concat(Stream.of(Collections.emptyList()), prefixes(list).flatMap(SubLists::suffixes));
     }
 
+
     private static <E> Stream<List<E>> suffixes(List<E> list) {
         return IntStream.rangeClosed(0, list.size()).mapToObj(start -> list.subList(start, list.size()));
     }
 
     private static <E> Stream<List<E>> prefixes(List<E> list) {
-        /*
-        for (int start = 0; start < src.size(); start++) {
-            for (int end = start+1; end <= src.size; end++) {
-                System.out.println(src.subList(start, end));
-            }
-        }*/
         return IntStream.rangeClosed(1, list.size()).mapToObj(end -> list.subList(0, end));
     }
-
 }
