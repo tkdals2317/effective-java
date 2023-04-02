@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.SynchronousQueue;
 
 public class Song {
-    // 골격 구현 클래스 AbstractList
+    // 코드 20-1 골격 구현 클래스 AbstractList
     static List<Integer> intArrayAsList(int[] a) {
         Objects.requireNonNull(a);
         return new AbstractList<>() {
