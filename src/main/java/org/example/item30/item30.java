@@ -43,9 +43,9 @@ public class item30 {
         }
     }
     // 코드 30-7 구현 컬렉션에서 최대값을 반환한다. - 재귀적 타입 한정 사용
-    public static <E extends Comparable<E>> Optional<E> max(Collection<E> c) {
+    public static <E extends Comparable<E>> E  max(Collection<E> c) {
         if (c.isEmpty()) {
-            return Optional.empty();
+            throw new IllegalArgumentException("빈 컬렉션");
         }
 
         E result = null;
@@ -55,6 +55,6 @@ public class item30 {
                 result = Objects.requireNonNull(e);
             }
         }
-        return Optional.of(result);
+        return result;
     }
 }
