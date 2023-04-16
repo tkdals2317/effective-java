@@ -14,7 +14,7 @@ public class ThreadLocalV2 {
     }
 
 
-    public static void set(Key key, Object object);
+    public static void set(Key key, Object object) {};
 
-    public static Object get(Key key);
+    public static Object get(Key key) {return new Object();};
 }
