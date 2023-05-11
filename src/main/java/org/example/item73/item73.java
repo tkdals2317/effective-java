@@ -29,8 +29,8 @@ public class item73 {
         // 코드 73-2 예외 연쇄
         try {
 
-        } catch (LowerLevelException e) {
-            throw new HigherLevelException(e);
+        } catch (LowerLevelException cause) {
+            throw new HigherLevelException(cause);
         }
     }
 
