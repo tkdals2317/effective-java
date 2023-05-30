@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-// 코드 79-1 잘못된 코드. 동기화 블록 안에서 외계인 메서드를 호출한다.
+// 코드 79-4 CopyOnWriteArrayList를 사용해 구현한 스레드 안전하고 관찰 가능한 집합
 public class ObservableSetV3<E> extends ForwardingSet<E> {
 
     public ObservableSetV3(Set<E> set) {
