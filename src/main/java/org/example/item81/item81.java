@@ -58,10 +58,11 @@ public class item81 {
 
 
     public static void waitUsedMethod(Object object) {
-        /* 코드 81-4 wait 메서드를 사용하는 표준 방식
+        /*
+        // 코드 81-4 wait 메서드를 사용하는 표준 방식
         synchronized (object){
             while (<조건이 충족되지 않았다>)
-                object.wait();
+                object.wait(); // (락을 놓고, 깨어나면 다시 잡는다.)
 
             ... // 조건이 충족되었을 떄의 동작을 수행한다.
         }
