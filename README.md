@@ -101,6 +101,7 @@ EFFECTIVE JAVA 3/E(조슈아 블로크) 책을 스터디하며 정리한 내용�
   - [item 72. 표준 예외를 사용하라](https://github.com/tkdals2317/effective-java/blob/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/10%EC%9E%A5%20%EC%98%88%EC%99%B8/item%2072.%20%ED%91%9C%EC%A4%80%20%EC%98%88%EC%99%B8%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
   - [item 73. 추상화 수준에 맞는 예외를 던지라](https://github.com/tkdals2317/effective-java/blob/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/10%EC%9E%A5%20%EC%98%88%EC%99%B8/item%2073.%20%EC%B6%94%EC%83%81%ED%99%94%20%EC%88%98%EC%A4%80%EC%97%90%20%EB%A7%9E%EB%8A%94%20%EC%98%88%EC%99%B8%EB%A5%BC%20%EB%8D%98%EC%A7%80%EB%9D%BC.md)
   - [item 74. 메서드가 던지는 모든 예외를 문서화하라](https://github.com/tkdals2317/effective-java/blob/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/10%EC%9E%A5%20%EC%98%88%EC%99%B8/item%2074.%20%EB%A9%94%EC%84%9C%EB%93%9C%EA%B0%80%20%EB%8D%98%EC%A7%80%EB%8A%94%20%EB%AA%A8%EB%93%A0%20%EC%98%88%EC%99%B8%EB%A5%BC%20%EB%AC%B8%EC%84%9C%ED%99%94%ED%95%98%EB%9D%BC.md)
+  - [item 75. 예외의 상세 메시지에 실패 관련 정보를 담으라](https://github.com/tkdals2317/effective-java/blob/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/10%EC%9E%A5%20%EC%98%88%EC%99%B8/item%2075.%20%EC%98%88%EC%99%B8%EC%9D%98%20%EC%83%81%EC%84%B8%20%EB%A9%94%EC%8B%9C%EC%A7%80%EC%97%90%20%EC%8B%A4%ED%8C%A8%20%EA%B4%80%EB%A0%A8%20%EC%A0%95%EB%B3%B4%EB%A5%BC%20%EB%8B%B4%EC%9C%BC%EB%9D%BC.md)
 
 #### 정리 내용은 노션에서도 확인할 수 있습니다.
 
