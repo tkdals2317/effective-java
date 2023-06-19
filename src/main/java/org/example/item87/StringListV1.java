@@ -1,4 +1,4 @@
-package org.example.item86;
+package org.example.item87;
 
 import java.io.Serializable;
 
