@@ -32,22 +32,6 @@ public final class Period implements Serializable {
         throw new InvalidObjectException("프록시가 필요합니다.");
     }
 
-    public Date getStart() {
-        return start;
-    }
-
-    public Date getEnd() {
-        return end;
-    }
-
-    @Override
-    public String toString() {
-        return "PeriodV2{" +
-                "start=" + start +
-                ", end=" + end +
-                '}';
-    }
-
     // 직렬화 프록시 패턴용 writeReplace 메서드
     private Object writeReplace() {
         return new SerializationProxy(this);
