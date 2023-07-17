@@ -215,7 +215,6 @@ private void readObject(ObjectInputStream s) throws IOException, ClassNotFoundEx
 위 코드로 아까 공격을 실행하면 다음과 같이 방어적 복사가 성공한 것을 볼 수 있다.
 
 ![Untitled 1](https://github.com/tkdals2317/effective-java/assets/49682056/0a6574f8-f529-400e-8d57-b39e92ec8bd2)
-
 ### 커스텀 방어적 readObject를 작성해야 하는 경우
 
 transient 필드를 제외한 모든 필드의 값을 매개변수로 받아 유효성 검사 없이 필드에 대입하는 public 생성자를 추가해도 괜찮은 경우
