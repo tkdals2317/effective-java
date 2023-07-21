@@ -119,7 +119,9 @@ EFFECTIVE JAVA 3/E(조슈아 블로크) 책을 스터디하며 정리한 내용�
   - [item 87. 커스텀 직렬화 형태를 고려해보라](https://github.com/tkdals2317/effective-java/blob/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/12%EC%9E%A5%20%EC%A7%81%EB%A0%AC%ED%99%94/item%2087.%20%EC%BB%A4%EC%8A%A4%ED%85%80%20%EC%A7%81%EB%A0%AC%ED%99%94%20%ED%98%95%ED%83%9C%EB%A5%BC%20%EA%B3%A0%EB%A0%A4%ED%95%B4%EB%B3%B4%EB%9D%BC.md)
   - [item 88. readObject 메서드는 방어적으로 작성하라](https://github.com/tkdals2317/effective-java/blob/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/12%EC%9E%A5%20%EC%A7%81%EB%A0%AC%ED%99%94/item%2088.%20readObject%20%EB%A9%94%EC%84%9C%EB%93%9C%EB%8A%94%20%EB%B0%A9%EC%96%B4%EC%A0%81%EC%9C%BC%EB%A1%9C%20%EC%9E%91%EC%84%B1%ED%95%98%EB%9D%BC.md)
   - [item 89. 인스턴스 수를 통제해야 한다면 readResolve보다는 열거타입을 사용하라](https://github.com/tkdals2317/effective-java/blob/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/12%EC%9E%A5%20%EC%A7%81%EB%A0%AC%ED%99%94/item%2089.%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%88%98%EB%A5%BC%20%ED%86%B5%EC%A0%9C%ED%95%B4%EC%95%BC%20%ED%95%9C%EB%8B%A4%EB%A9%B4%20readResolve%EB%B3%B4%EB%8B%A4%EB%8A%94%20%EC%97%B4%EA%B1%B0%ED%83%80%EC%9E%85%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
-
+  - [item 90. 직렬화된 인스턴스 대신 직렬화 프록시 사용을 검토하라](https://github.com/tkdals2317/effective-java/blob/master/%EC%A0%95%EB%A6%AC%20%EC%9E%90%EB%A3%8C/12%EC%9E%A5%20%EC%A7%81%EB%A0%AC%ED%99%94/item%2090.%20%EC%A7%81%EB%A0%AC%ED%99%94%EB%90%9C%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EB%8C%80%EC%8B%A0%20%EC%A7%81%EB%A0%AC%ED%99%94%20%ED%94%84%EB%A1%9D%EC%8B%9C%20%EC%82%AC%EC%9A%A9%EC%9D%84%20%EA%B2%80%ED%86%A0%ED%95%98%EB%9D%BC)
+ 
+  
 #### 정리 내용은 노션에서도 확인할 수 있습니다.
 
 [이펙티브 자바 노션 정리자료](https://handy-gladiolus-4a5.notion.site/ee068f60419f41a6a2ec62f69e3599e3)
